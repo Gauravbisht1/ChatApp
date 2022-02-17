@@ -1,0 +1,18 @@
+{
+  "name": "Chat-App",
+  "version": "1.0.0",
+  "description": "Simple Chat App with the help of Node Js & Socket io.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["example","heroku"],
+  "author": "Solid Coder",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1"
+  }
+}
