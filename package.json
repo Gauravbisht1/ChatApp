@@ -4,9 +4,13 @@
   "description": "Simple Chat App with the help of Node Js & Socket io.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
-  "keywords": ["example","heroku"],
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "author": "Solid Coder",
   "license": "ISC",
   "dependencies": {

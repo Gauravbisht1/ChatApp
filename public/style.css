@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap");
-
 * {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   box-sizing: border-box;
 }
 
@@ -12,20 +10,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: 100vh;
   background-color: #f8f8f8;
-  font-family: "Roboto", "sans-serif";
+  font-family: 'Roboto', 'sans-serif';
 }
 
 .container {
-  width: 800px;
+  width: 45%;
+  height: 80%;
   max-width: 90%;
   background-color: #fff;
   box-sizing: border-box;
-  border:3px solid black ;
+  border: 3px solid black;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
 }
 .header {
+  height: 10%;
   padding: 20px;
   background-color: #8df36e;
   display: flex;
@@ -39,7 +40,8 @@ body {
   font-weight: bold;
 }
 .text {
-  height: 500px;
+  width: 100%;
+  height: 80%;
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -50,22 +52,28 @@ body {
 }
 
 .message {
-  padding: 20px; 
-    border-radius: 4px; 
-    margin-bottom: 40px;
-    max-width: 300px;
-    position: relative;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  position: relative;
+  word-wrap: break-word;
 }
 .left {
+  width: auto;
+  max-width: 70%;
   background: #eba03f;
-  /* background: #8F8BE8; */
-  color: black;  
+  color: black;
+  margin-right: auto;
 }
+
 .right {
+  width: auto;
+  max-width: 70%;
   background: #917ee2;
   color: black;
-    margin-left: auto;
+  margin-left: auto;
 }
+
 .message h4 {
   position: absolute;
   top: -20px;
@@ -74,29 +82,32 @@ body {
   font-size: 14px;
 }
 
-
-.send{
-  display: flex;
-  justify-content:space-between;
+.send {
+  justify-content: space-between;
   width: 100%;
+  height: 10%;
   align-items: center;
   box-sizing: border-box;
-  border: 0.5px solid black;
+  display: flex;
+  outline: none;
+  border: 1px solid black;
   border-radius: 5px;
 }
-#icon{
-  width: 5%;
-  position: relative;
-  right: 2%;
-  margin-right: 3pxpx;
-}
+
 textarea {
-  width: 80%;
+  width: 90%;
+  height: 100%;
   border: none;
-  padding: 20px;
-  font-size: 16px;
   outline: none;
+  padding: 20px;
+  font-size: 1rem;
   background: #fbfbfb;
 }
 
 /* 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 */
+
+.icon {
+  width: 3%;
+  position: relative;
+  margin: auto 1rem;
+}
